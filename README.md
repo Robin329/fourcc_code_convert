@@ -1,8 +1,17 @@
-# fourcc_code_convert
+- [1. fourcc\_code\_convert](#1-fourcc_code_convert)
+  - [1.1. c\_cpp](#11-c_cpp)
+  - [1.2. python](#12-python)
+    - [1.2.1. Method 1](#121-method-1)
+    - [1.2.2. Method 2](#122-method-2)
+    - [1.2.3. Method 3](#123-method-3)
+  - [1.3. shell](#13-shell)
+
+
+# 1. fourcc_code_convert
 If you need to convert fourcc code to human readable color format, or between the two, yes you can use this tool, it supports multiple languages
 
 
-## c_cpp
+## 1.1. c_cpp
 
 ```shell
 $ cd c_cpp/ && make
@@ -14,9 +23,9 @@ $ ./fourcc_code_convert -h
                 -v - Verbose Log.
 ```
 
-## python
+## 1.2. python
 
-### Method 1
+### 1.2.1. Method 1
 ```shell
 $ ./fourcc_code_convert.py
 Please Input: AR24
@@ -25,7 +34,7 @@ is string AR24
         Fourcc Code:"0x34325241(875713089)"
 ```
 
-### Method 2
+### 1.2.2. Method 2
 ```shell
 $ ./fourcc_code_convert.py
 Please Input: 0x30335852
@@ -34,7 +43,7 @@ is hex 0x30335852
         Fourcc Code:"0x30335852(808671314)"
 ```
 
-### Method 3
+### 1.2.3. Method 3
 ```shell
 $ ./fourcc_code_convert.py
 Please Input: 875710290
@@ -44,7 +53,7 @@ is dec 875710290
 ```
 
 
-## shell
+## 1.3. shell
 
 ```sh
 $ ./fourcc_code_convert.sh
